@@ -1,0 +1,39 @@
+[
+  { "nombre": "Mate de Calabaza Tradicional", "precio": 4500, "stock": 120, "categoria": "Mates" },
+  { "nombre": "Mate de Madera de Algarrobo", "precio": 5200, "stock": 85, "categoria": "Mates" },
+  { "nombre": "Termo de Acero 1L", "precio": 15000, "stock": 40, "categoria": "Termos" },
+  { "nombre": "Yerba Mate Suave 500g", "precio": 2100, "stock": 300, "categoria": "Yerbas" },
+  { "nombre": "Yerba Mate Intensa 1kg", "precio": 4000, "stock": 150, "categoria": "Yerbas" },
+  { "nombre": "Set Matero Básico", "precio": 22000, "stock": 25, "categoria": "Sets" },
+  { "nombre": "Mate Imperial", "precio": 3800, "stock": 60, "categoria": "Mates" },
+  { 
+    "nombre": "Bombilla Chata", 
+    "precio": 1800, 
+    "stock": 250, 
+    "categoria": "Accesorios",
+    "detalles": { 
+      "material": "Acero Inoxidable", 
+      "tipo_filtro": "Ranurado", 
+      "desmontable": true 
+    }
+  },
+  { 
+    "nombre": "Canastas De Cuerina", 
+    "precio": 9500, 
+    "stock": 45, 
+    "categoria": "Bolsos",
+    "colores_disponibles": ["Negro", "Marrón", "Suela", "Rojo"],
+    "capacidad": "Termo de 1L y 2 mates"
+  },
+  { 
+    "nombre": "Termo System", 
+    "precio": 12000, 
+    "stock": 15, 
+    "categoria": "Termos",
+    "proveedor": "Importadora Sur",
+    "promocion": { 
+      "descuento_mayorista": "15%", 
+      "cantidad_minima": 10 
+    }
+  }
+]
