@@ -14,9 +14,6 @@ A continuación se detallan las consultas de lectura y operaciones de escritura 
   
   db.productos.find({ categoria: "Mates" })
 
-  * **Evidencia de ejecución:**
-  ![Captura Consulta Mates](Actividad_Practica_1/Capturas/Consulta%20mates.png)
-
 **1.2 Uso de operadores de comparación**
 * **Problema de negocio:** Identifica los productos de mayor valor (precio superior a $5000) para aplicar estrategias de venta premium.
 * **Código MQL:**
